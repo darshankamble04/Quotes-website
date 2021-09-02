@@ -5,6 +5,12 @@
     padding: 0;
 }
 
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 body {
     background-color: rgb(1, 51, 71);
 }
@@ -18,8 +24,6 @@ body {
     border-bottom: 1.2px solid rgb(153, 153, 153);
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
-    display: flex;
-    align-items: center;
     justify-content: end;
 }
 
@@ -51,15 +55,11 @@ body {
     padding: 20px;
     width: 50vw;
     height: 500px;
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .box {
     position: relative;
-    /* margin: auto; */
     padding: 8px;
     width: 90%;
     height: 400px;
@@ -67,9 +67,6 @@ body {
 }
 
 .quotesText {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 180px;
     padding: 70px;
     font-family: 'Caveat', cursive;
@@ -89,13 +86,11 @@ body {
 
 #newOne {
     background-color: rgb(8, 27, 18);
-    outline: none;
     color: #fff;
     font-family: sans-serif;
     border: none;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    border-top: none;
     padding: 8px;
     width: calc(90% + 18px);
     height: 50px;

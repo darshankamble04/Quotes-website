@@ -4,7 +4,9 @@
  const newOne = document.getElementById("newOne")
      // API
  const api = "https://type.fit/api/quotes"
-     // MAIN FUNC
+ quotesText.innerText = `Wait ...`;
+
+ // MAIN FUNC
  const getNewQuotes = async() => {
      try {
          const random = parseInt((1640) * Math.random())
