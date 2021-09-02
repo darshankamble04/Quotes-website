@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Pacifico&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(1, 51, 71);
+}
+
+.head {
+    padding: 0 8px;
+    width: 90%;
+    height: 30px;
+    background-color: rgb(216, 216, 216);
+    background: linear-gradient(0deg, rgb(134, 134, 134) 0%, rgb(226, 226, 226) 50%);
+    border-bottom: 1.2px solid rgb(153, 153, 153);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    border: 0.5px solid rgba(63, 63, 63, 0.116);
+    border-radius: 13px;
+    display: inline-block;
+    z-index: 10;
+    margin: 0 8px 0 0;
+}
+
+.dot1 {
+    background-color: #FF605C;
+    margin: 0 8px 0 10px;
+}
+
+.dot2 {
+    background-color: #FFBD44;
+}
+
+.dot3 {
+    background-color: #00CA4E;
+}
+
+.container {
+    margin: 80px auto;
+    padding: 20px;
+    width: 50vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    position: relative;
+    /* margin: auto; */
+    padding: 8px;
+    width: 90%;
+    height: 400px;
+    background-color: rgb(243, 225, 59);
+}
+
+.quotesText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    padding: 70px;
+    font-family: 'Caveat', cursive;
+    color: rgb(0, 63, 100);
+    font-size: 2rem;
+}
+
+.quotesAuthor {
+    padding: 70px;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    font-family: 'Teko', sans-serif;
+    color: rgb(0, 63, 100);
+    font-size: 1.5rem;
+}
+
+#newOne {
+    background-color: rgb(8, 27, 18);
+    outline: none;
+    color: #fff;
+    font-family: sans-serif;
+    border: none;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top: none;
+    padding: 8px;
+    width: calc(90% + 18px);
+    height: 50px;
+    cursor: pointer;
+}
