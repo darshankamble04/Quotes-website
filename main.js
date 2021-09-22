@@ -15,7 +15,7 @@
          const author = jsonData[random]["author"]
          quotesText.innerText = ` " ${jsonData[random]["text"]} "`
          if (author == null) {
-             quotesAuthor.innerText = `- Me`
+             quotesAuthor.innerText = `- Darshan Kamble`
          } else {
              quotesAuthor.innerText = `- ${author}`
          }
